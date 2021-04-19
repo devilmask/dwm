@@ -85,19 +85,19 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 static const char *browsercmd[]  = { "google-chrome-stable", NULL };
 
-static const char *upvol[]   = { "/home/david/scripts/vol-up.sh",  NULL };
-static const char *downvol[] = { "/home/david/scripts/vol-down.sh",  NULL };
-static const char *mutevol[] = { "/home/david/scripts/vol-toggle.sh",  NULL };
+static const char *upvol[]   = { "/home/devil/git_repo/scripts/vol-up.sh",  NULL };
+static const char *downvol[] = { "/home/devil/git_repo/scripts/vol-down.sh",  NULL };
+static const char *mutevol[] = { "/home/devil/git_repo/scripts/vol-toggle.sh",  NULL };
 
-static const char *wpcmd[]  = { "/home/david/scripts/wp-change.sh", NULL };
-static const char *sktogglecmd[]  = { "/home/david/scripts/sck-tog.sh", NULL };
+static const char *wpcmd[]  = { "/home/devil/git_repo/scripts/wp-change.sh", NULL };
+static const char *sktogglecmd[]  = { "/home/devil/git_repo/scripts/sck-tog.sh", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "80x24", NULL };
 
-static const char *setcolemakcmd[]  = { "/home/david/scripts/setxmodmap-colemak.sh", NULL };
-static const char *setqwertycmd[]  = { "/home/david/scripts/setxmodmap-qwerty.sh", NULL };
+static const char *setcolemakcmd[]  = { "/home/devil/git_repo/scripts/setxmodmap-colemak.sh", NULL };
+static const char *setqwertycmd[]  = { "/home/devil/git_repo/scripts/setxmodmap-qwerty.sh", NULL };
 
-static const char *suspendcmd[]  = { "/home/david/scripts/suspend.sh", NULL };
+static const char *suspendcmd[]  = { "/home/devil/git_repo/scripts/suspend.sh", NULL };
 
 static const char *screenshotcmd[] = { "flameshot", "gui", NULL };
 
